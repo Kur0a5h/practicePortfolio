@@ -22,6 +22,7 @@
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
 
+    <link href='css/custom.css' rel='stylesheet'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -120,6 +121,16 @@
                 <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
                 <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
                 </p>
+                <div id="emil">email</div>
+                <form id='contactForm'>
+                    <input type='text' name='contactEmail' placeholder='your email'>
+                    <div class="error"></div>
+                    <input type='text' name='subject' placeholder='subject'>
+                    <div class="error"></div>
+                    <textarea name='message' placeholder='enter your message'></textarea>
+                    <div class="error"></div>
+                    <button type='button' id='sendMessage'>SEND</button>
+                </form>
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
@@ -156,6 +167,8 @@
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE&sensor=false"></script>
+    
+    <script type ='text/javascript' src='js/custom.js'></script>
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
